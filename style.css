@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(214, 63%, 12%);
+  font-family: sans-serif;
+    
+}
+
+.image{
+    display: block;
+    max-width: 100%;
+    border: 1px solid hsl(215, 100%, 11%);
+    border-radius:  10px;
+}
+
+ a .image:hover, a .image:hover::before, a .image:hover::after{
+   
+  opacity: 1;
+  content: url(images/icon-view.svg);
+  width: 100%;
+  background-color: aqua;
+}
+
+a .image:hover,
+a .image:hover::before, a.image:hover::after{
+   z-index: 1;
+   background-image: url(images/image-equilibrium.jpg);
+   background-color: aqua;
+}
+
+.section{
+  /*   margin-top: 8.5rem; */
+
+margin: 100px auto;
+   /*  width: min(100%, 250px); */
+   width: 250px;
+   height: auto;
+    background-color: hsl(215, 100%, 11%);
+    padding: 1rem;
+        border: 1px solid hsl(215, 100%, 11%) ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px;
+}
+
+ figure{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+figure img{
+
+border: 1px solid hsl(215, 100%, 11%);
+border-radius:  10px;
+}
+
+figcaption{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    margin: 0.35rem;
+    font-weight: ;
+   
+}
+
+.nowrap{
+    white-space: nowrap;
+    color:  hsl(215, 51%, 70%);
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+p{
+    color: ;
+}
+.change{
+    color: hsl(215, 51%, 70%);
+}
+/* .why{
+    display: inline-block;
+    margin: 0.6rem;
+} */
+.g{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    background-color: hsl(215, 32%, 27%);
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+ :
